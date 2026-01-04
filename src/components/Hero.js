@@ -12,7 +12,7 @@ export default function Hero({ scrollToSection }) {
         if (!typedRef.current) return;
 
         typedInstance.current = new Typed(typedRef.current, {
-            strings: ['Full-Stack Web Developer', 'UI/UX Enthusiast', "Next.js Developer"],
+            strings: ['Web Developer', 'Tech Enthusiast'],
             typeSpeed: 50,
             backSpeed: 25,
             backDelay: 1500,
@@ -53,14 +53,14 @@ export default function Hero({ scrollToSection }) {
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
                         <button
                             onClick={() => scrollToSection('contact')}
-                            className="px-6 py-3 sm:px-8 sm:py-4 rounded-full bg-purple-600 text-white text-sm sm:text-base font-semibold hover:bg-purple-500 transition-all duration-300 shadow-lg shadow-purple-500/25 flex items-center justify-center gap-2 group"
+                            className="w-full sm:w-auto px-6 py-3 sm:px-8 sm:py-4 rounded-full bg-purple-600 text-white text-sm sm:text-base font-semibold hover:bg-purple-500 transition-all duration-300 shadow-lg shadow-purple-500/25 flex items-center justify-center gap-2 group"
                         >
                             Contact Me
                             <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </button>
                         <button
                             onClick={() => scrollToSection('projects')}
-                            className="px-6 py-3 sm:px-8 sm:py-4 rounded-full border border-slate-700 bg-slate-900/50 text-white text-sm sm:text-base font-semibold hover:bg-slate-800 hover:border-slate-600 transition-all duration-300 backdrop-blur-sm"
+                            className="w-full sm:w-auto px-6 py-3 sm:px-8 sm:py-4 rounded-full border border-slate-700 bg-slate-900/50 text-white text-sm sm:text-base font-semibold hover:bg-slate-800 hover:border-slate-600 transition-all duration-300 backdrop-blur-sm"
                         >
                             View Work
                         </button>

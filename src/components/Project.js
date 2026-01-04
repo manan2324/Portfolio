@@ -96,9 +96,11 @@ export default function Project() {
                     ))}
                 </div>
 
-                <button className="sm:hidden w-full mt-6 sm:mt-8 py-3 rounded-xl border border-slate-800 text-sm text-slate-300 hover:bg-slate-900 transition-colors">
-                    View all projects
-                </button>
+                <Link href={"https://github.com/manan2324"} target='_blank'>
+                    <button className="sm:hidden w-full mt-6 sm:mt-8 py-3 rounded-xl border border-slate-800 text-sm text-slate-300 hover:bg-slate-900 transition-colors">
+                        View all projects
+                    </button>
+                </Link>
             </div>
         </section>
     )
