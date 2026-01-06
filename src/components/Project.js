@@ -17,14 +17,16 @@ export default function Project() {
             description: "A comprehensive travel booking platform that allows users to explore destinations, book hotels, and manage their itineraries with ease.",
             tags: ["Node.js", "Express.js", "MongoDB", "EJS", "Bootstrap"],
             image: "/Project2.png",
-            githubLink: "https://github.com/manan2324/Wanderlust-project"
+            githubLink: "https://github.com/manan2324/Wanderlust-project",
+            liveDemoLink: "https://wanderlust-project-x5nl.onrender.com"
         },
         {
             title: "SnapLink - A URL Shortener",
             description: "A modern, fast URL shortening service built with Next.js. Create short, memorable links in seconds without registration.",
             tags: ["Next.js", "MongoDB", "Tailwind CSS"],
             image: "/Project3.png",
-            githubLink: "https://github.com/manan2324/Snaplink"
+            githubLink: "https://github.com/manan2324/Snaplink",
+            liveDemoLink: "https://snaplink-nllc.vercel.app/"
         }
     ]
     return (
