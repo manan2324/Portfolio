@@ -28,7 +28,7 @@ export default function About() {
                     </p>
                     <div className="flex justify-center mt-6 sm:mt-8">
                         <Link 
-                            href="/Manan_resume.pdf" 
+                            href="/Manan_Patel_Resume.pdf" 
                             download
                             className="inline-flex items-center gap-2 px-6 py-3 bg-linear-to-r from-purple-600 to-cyan-600 text-white font-semibold rounded-lg hover:from-purple-500 hover:to-cyan-500 transition-all duration-300 shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40 hover:scale-105"
                         >
